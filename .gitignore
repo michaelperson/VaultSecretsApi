@@ -1,0 +1,8 @@
+bin/
+obj/
+*.user
+# Ne jamais committer de SecretID ou de fichiers d'environnement contenant des secrets
+.env
+appsettings.*.Local.json
+/.vs/VaultSecretsApi/DesignTimeBuild
+/.vs/VaultSecretsApi
